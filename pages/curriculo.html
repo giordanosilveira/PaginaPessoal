@@ -1,124 +1,193 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-  <title>Contato</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Profile</title>
 </head>
 
-<body>
-  <main class="h-screen w-screen grid grid-cols-12">
-    <aside
-      class="border-solid border-r border-black shadow-lg bg-gradient-to-b from-indigo-900 to-purple-700 text-white col-span-2">
-      <img class="mx-auto rounded-full pt-4 w-16 md:w-32 lg:w-64" src="../static/images/file.jpeg"
-        alt="Giordano Henrique Silveira">
-      <h1 class="text-center sm:text-sm lg:text-xl text-gray-400 font-semibold trackin-wide pt-6">Giordano Henrique
-        Silveira</h1>
-
-      <div class="ml-3 mt-10 text-xs font-semibold leading-6 text-gray-400">Informações</div>
-      <nav aria-label="Sidebar" class="px-3 space-y-3">
-        <a class="text-indigo-200 hover:text-white hover:bg-indigo-900 rounded-md group flex items-center font-semibold sm:text-sm lg:text-lg" href="../index.html">
-          <svg class="text-gray-400 mr-3 h-6 w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round"
-              d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-          </svg>
-          Principal
-        </a>
-
-        <a class="text-indigo-200 hover:text-white hover:bg-indigo-900 rounded-md group flex items-center font-semibold sm:text-sm lg:text-lg" href="contato.html">
-          <svg class="text-gray-400 mr-3 h-6 w-6 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none"
-            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round"
-              d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
-          </svg>
-          Contato
-        </a>
-
-        <a class="text-indigo-200 hover:text-white hover:bg-indigo-900 rounded-md group flex items-center font-semibold sm:text-sm lg:text-lg"
-          href="">
-          <svg class="text-gray-400 mr-3 h-6 w-6 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none"
-            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round"
-              d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0" />
-          </svg>
-          Currículo
-        </a>
-      </nav>
-    </aside>
-    <article class="col-span-10 grid grid-rows-6 bg-[#eac0a9]">
-      <article class="row-span-1 border-b border-black flex items-center">
-        <h3 class="ml-8 lg:text-2xl font-medium font-semibold mx-auto">Currículo</h3>
-      </article>
-      <article class="row-span-5 flex items-center">
-        <div class="m-8 w-full h-96 bg-[#fce8dd] rounded-lg shadow overflow-auto">
-          
-          
-          <h2 class="m-8 text-2xl text-center font-semibold font-sans">Giordano Henrique Silveira</h1>
-          
-          <h3 class="m-8 text-xl font-sans">Dados Pessoais:</h3>
-          <ul class="list-inside list-disc ml-8">
-            <li class="ml-4 text-base leading-6 font-sans">Cidade: Quatro Barras / PR.</li> 
-            <li class="ml-4 text-base leading-6 font-sans">Bairro: Centro.</li>
-            <li class="ml-4 text-base leading-6 font-sans">CEP: 83420-000.</li>
-            <li class="ml-4 text-base leading-6 font-sans">Natural: Quatro Barras.</li>
-            <li class="ml-4 text-base leading-6 font-sans">Estado Civil: Solteiro.</li>
-            <li class="ml-4 text-base leading-6 font-sans">Data de Nascimento: 08/06/2000.</li>
-          </ul>
-          
-          <h3 class="m-8 text-xl font-sans">Escolaridade:</h3>
-          <ul class="list-inside list-disc ml-8">
-            <li class="ml-4 text-base leading-6 font-sans">Segundo grau completo.</li> 
-            <li class="ml-4 text-base leading-6 font-sans">Curso superior (em curso): Universidade Federal do Paraná (UFPR)/ terceiro ano.</li>
-          </ul>
-  
-          <h3 class="m-8 text-xl font-sans">Objetivo:</h3> 
-          <ul class="list-inside list-disc ml-8">
-            <li class="ml-4 text-base leading-6 font-sans">Ingressar no mercado de trabalho prestando serviços e enriquecer meus conhecimentos teóricos junto à prática.</li> 
-          </ul>
-    
-          <h3 class="m-8 text-xl font-sans">Curso:</h3>
-          <ul class="list-inside list-disc ml-8">
-            <li class="ml-4 text-base leading-6 font-sans">Tenho conhecimento de linguagens C/C++, bash/shell scripting (básico).</li> 
-            <li class="ml-4 text-base leading-6 font-sans">Curso: cursando Ciência da Computação na Universidade Federal do Paraná (3º ano).</li>
-            <li class="ml-4 text-base leading-6 font-sans">Inglês pré-intermediário.</li>
-          </ul>
-  
-          <h3 class="m-8 text-xl font-sans">Experiência:</h3>
-          <ul class="list-inside list-disc ml-8">
-            <li class="ml-4 text-base leading-6 font-sans">
-              Janeiro/2022 - Atual: Comércio de Materiais Médicos Hospitalares Macrosul Ltda.
-              <p class="text-base leading-6 font-sans">
-                Cargo: Estagiário
-              </p>
-              <p class="text-base leading-6 font-sans">
-                Programação Web: utilizando Django, HTML, Tailwind e JavaScript
-              </p>
-              <p class="text-base leading-6 font-sans">
-                Análise de Dados: utilizando SQL e python (pandas e numpy)
-              </p>
-            </li> 
-          </ul>
-  
-    
-          <h3 class="m-8 text-xl font-sans">Perfil Psicológico de Habilidades Pessoais:</h3>
-          <ul class="list-inside list-disc ml-8">
-            <li class="ml-4">Capacidade de argumentação.</li> 
-            <li class="ml-4">Cooperação e ação em equipe.</li>
-            <li class="ml-4">Relacionamento interpessoal.</li>
-            <li class="ml-4">Curiosidade.</li>
-            <li class="ml-4">Dedicação.</li>
-            <li class="ml-4">Perseverança.</li>
-          </ul>
+<body class="bg-[#f6f3c2] h-screen w-screen flex">
+  <aside class="flex flex-col items-center w-2/12 bg-[#f89b7e] py-10 h-full">
+    <figure class="size-60 rounded-full bg-[url(/static/images/file.jpeg)] bg-cover bg-center mb-4">
+    </figure>
+    <h1 class="text-xl uppercase text-[#1d1d1d] font-semibold mb-4">Giordano Henrique Silveira</h1>
+    <nav class="flex flex-col space-y-3">
+      <label class="flex gap-3 items-center hover:bg-[#f7c69f] py-3 px-6 rounded-full curosr-pointer">
+        <i class="fa-solid fa-house"></i>
+        <a class="text-base uppercase text-[#1d1d1d] font-semibold" href="../index.html">Home</a>
+      </label>
+      <label class="flex gap-3 items-center hover:bg-[#f7c69f] py-3 px-6 rounded-full curosr-pointer">
+        <i class="fa-solid fa-address-book"></i>
+        <a class="text-base uppercase text-[#1d1d1d] font-semibold" href="/pages/contato.html">Contato</a>
+      </label>
+      <label class="flex gap-3 items-center hover:bg-[#f7c69f] py-3 px-6 rounded-full curosr-pointer">
+        <i class="fa-solid fa-file"></i>
+        <a class="text-base uppercase text-[#1d1d1d] font-semibold" href="/pages/curriculo.html">Currículo</a>
+      </label>
+    </nav>
+  </aside>
+  <main class="w-10/12 h-screen flex flex-col">
+    <div class="border-b border-gray-500 py-13 px-6 flex items-center gap-3">
+      <i class="fa-solid fa-file fa-xl"></i>
+      <h1 class="text-3xl uppercase font-semibold text-[#1d1d1d]">Currículo</h1>
+    </div>
+    <div class="flex-1 w-[1000px] mx-auto bg-[#ebe5b2] my-8 overflow-y-auto p-8 rounded-lg">
+      <header class="flex justify-between border-b pb-8">
+        <div>
+          <h1 class="text-2xl">Giordano Henrique Silveira</h1>
+          <h2 >Desenvolvedor Full-Stack</h2>
         </div>
-      </article>
-    </article>
+        <nav>
+          <div class="flex items-center gap-3 p-2">
+            <div>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <a class="text-sm text-[#1d1d1d]">LinkedIn</a>
+          </div>
+          <div class="flex items-center gap-3 p-2">
+            <i class="fa-brands fa-github"></i>
+            <p class="text-sm text-[#1d1d1d]">GitHub</p>
+          </div>
+          <div class="flex items-center gap-3 p-2">
+            <i class="fa-brands fa-instagram"></i>
+            <p class="text-sm text-[#1d1d1d]">Instagram</p>
+          </div>
+          <div class="flex items-center gap-3 p-2">
+            <i class="fa-solid fa-envelope"></i>
+            <p class="text-sm text-[#1d1d1d]">giordano.h.silveira@gmail.com</p>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section class="mt-8 pb-8 border-b">
+          <h2 class="text-2xl mb-4">Resumo</h2>
+          <p>Summarise your career here. You can make a PDF version of your resume using our free Sketch template here. 
+            Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
+            aliquet nec, vulputate eget. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          </p>
+        </section>
+
+        <article class="flex mt-8">
+          <div class="w-9/12">
+            <h2 class="text-2xl mb-4">Experiência</h2>
+            <section>
+              <h3>Desenvolvedor WEB Júnior</h3>
+              <p>
+                Desenvolvimento Web e construção de API's REST Full com Django e Django REST Framework. 
+                Construção de páginas responsivas com HTML, CSS, Tailwind CSS, Javascript, Alpine.js, HTMX, além de outras ferramentas. 
+              </p>
+            </section>
+          </div>
+          <aside class="w-3/12">
+            <section class="pb-8 border-b">
+              <h2 class="text-2xl mb-4">Habilidades</h2>
+              <h3 class="text-xl mb-2">Frontend</h3>
+              <nav class="space-y-1.5 mb-4">
+                <div>
+                  <h4 class="text-sm">Html/Css</h4>
+                  <div class="h-2 bg-[#f7c69f] rounded-full">
+                    <div class="w-[94%] bg-[#f89b7e] h-2 rounded-full"></div>
+                  </div>
+                </div>
+                <div>
+                  <h4 class="text-sm">TailwindCSS</h4>
+                  <div class="h-2 bg-[#f7c69f] rounded-full">
+                    <div class="w-[90%] bg-[#f89b7e] h-2 rounded-full"></div>
+                  </div>
+                </div>
+                <div>
+                  <h4 class="text-sm">JavaScript</h4>
+                  <div class="h-2 bg-[#f7c69f] rounded-full">
+                    <div class="w-[86%] bg-[#f89b7e] h-2 rounded-full"></div>
+                  </div>
+                </div>
+                <div>
+                  <h4 class="text-sm">Alpine.js</h4>
+                  <div class="h-2 bg-[#f7c69f] rounded-full">
+                    <div class="w-[86%] bg-[#f89b7e] h-2 rounded-full"></div>
+                  </div>
+                </div>
+              </nav>
+              <h3 class="text-xl mb-2">Backend</h3>
+              <nav class="space-y-1.5 mb-4">
+                <div>
+                  <h4 class="text-sm">Python/Django</h4>
+                  <div class="h-2 bg-[#f7c69f] rounded-full">
+                    <div class="w-[85%] bg-[#f89b7e] h-2 rounded-full"></div>
+                  </div>
+                </div>
+                <div>
+                  <h4 class="text-sm">Django REST Framework</h4>
+                  <div class="h-2 bg-[#f7c69f] rounded-full">
+                    <div class="w-[75%] bg-[#f89b7e] h-2 rounded-full"></div>
+                  </div>
+                </div>
+                <div>
+                  <h4 class="text-sm">FastAPI/Django Ninja</h4>
+                  <div class="h-2 bg-[#f7c69f] rounded-full">
+                    <div class="w-[60%] bg-[#f89b7e] h-2 rounded-full"></div>
+                  </div>
+                </div>
+                <div>
+                  <h4 class="text-sm">Ruby/Rails</h4>
+                  <div class="h-2 bg-[#f7c69f] rounded-full">
+                    <div class="w-[50%] bg-[#f89b7e] h-2 rounded-full"></div>
+                  </div>
+                </div>
+              </nav>
+              <h3 class="text-xl mb-2">Outras</h3>
+              <nav class="flex flex-wrap gap-2">
+                <p class="text-sm bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">SQL</p>
+                <p class="text-sm bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">pandas/numpy</p>
+                <p class="text-sm bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">C</p>
+                <p class="text-sm bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">C++</p>
+                <p class="text-sm bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">Git/GitHub</p>
+                <p class="text-sm bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">API Rest</p>
+                <p class="text-sm bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">Comunicação</p>
+                <p class="text-sm bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">Dedicação</p>
+                <p class="text-sm bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">Trabalho em equipe</p>
+              </nav>
+            </section>
+            <section class="mt-8 pb-8 border-b">
+              <h2 class="text-2xl mb-4">Educação</h2>
+              <div class="mb-4">
+                <h3 class="text-xl">Ensino Médio</h3>
+                <p class="">Colégio Graciosa</p>
+                <p class="text-sm">2015 - 2017</p>
+              </div>
+              <div class="mb-4">
+                <h3 class="text-xl">Bacharelado em Ciência da Computação</h3>
+                <p class="">Universidade Federal do Paraná</p>
+                <p class="text-sm">2019 - 2025</p>
+              </div>
+            </section>
+            <section class="mt-8 pb-8 border-b">
+              <h2 class="text-2xl mb-4">Linguagens</h2>
+              <nav class="space-y-1.5 mb-4">
+                <div>
+                  <h4 class="text-sm">Português</h4>
+                  <div class="h-2 bg-[#f7c69f] rounded-full">
+                    <div class="w-[100%] bg-[#f89b7e] h-2 rounded-full"></div>
+                  </div>
+                </div>
+                <div>
+                  <h4 class="text-sm">Inglês</h4>
+                  <div class="h-2 bg-[#f7c69f] rounded-full">
+                    <div class="w-[60%] bg-[#f89b7e] h-2 rounded-full"></div>
+                  </div>
+                </div>
+              </nav>
+            </section>
+          </aside>
+        </article>
+      </main>
+    </div>
   </main>
 </body>
-
 
 </html>
