@@ -28,65 +28,127 @@
       </label>
     </nav>
   </aside>
-  <main class="w-10/12 h-screen flex flex-col">
+  <main class="w-10/12 h-screen flex flex-col text-[#6e502b]">
     <div class="border-b border-gray-500 py-13 px-6 flex items-center gap-3">
-      <i class="fa-solid fa-file fa-xl"></i>
+      <i class="fa-solid fa-file fa-xl text-black"></i>
       <h1 class="text-3xl uppercase font-semibold text-[#1d1d1d]">Currículo</h1>
     </div>
     <div class="flex-1 w-[1000px] mx-auto bg-[#ebe5b2] my-8 overflow-y-auto p-8 rounded-lg">
       <header class="flex justify-between border-b pb-8">
         <div>
-          <h1 class="text-2xl">Giordano Henrique Silveira</h1>
-          <h2 >Desenvolvedor Full-Stack</h2>
+          <h1 class="text-2xl text-[#6e502b] uppercase font-semibold">Giordano Henrique Silveira</h1>
+          <h2 class="text-lg text-[#6e502b] font-thin">Desenvolvedor Web Full-Stack</h2>
         </div>
         <nav>
           <div class="flex items-center gap-3 p-2">
-            <div>
-              <i class="fa-brands fa-linkedin"></i>
+            <div class="bg-white size-7 rounded-full flex items-center justify-center">
+              <i class="fa-brands fa-linkedin text-blue-600"></i>
             </div>
-            <a class="text-sm text-[#1d1d1d]">LinkedIn</a>
+            <a target="_blank" href="https://www.linkedin.com/in/giordanohenriquesilveira/" class="text-md text-[#6e502b] hover:bg-[#f7c69f] font-thin px-2 py-0.5 rounded-lg">LinkedIn</a>
           </div>
           <div class="flex items-center gap-3 p-2">
-            <i class="fa-brands fa-github"></i>
-            <p class="text-sm text-[#1d1d1d]">GitHub</p>
+            <div class="bg-white size-7 rounded-full flex items-center justify-center">
+              <i class="fa-brands fa-github text-black"></i>
+            </div>
+            <a target="_blank" href="https://github.com/giordanosilveira" class="text-md text-[#6e502b] hover:bg-[#f7c69f] font-thin px-2 py-0.5 rounded-lg">GitHub</a>
           </div>
           <div class="flex items-center gap-3 p-2">
-            <i class="fa-brands fa-instagram"></i>
-            <p class="text-sm text-[#1d1d1d]">Instagram</p>
+            <div class="bg-white size-7 rounded-full flex items-center justify-center">
+              <i class="fa-brands fa-instagram text-pink-500"></i>
+            </div>
+            <a target="_blank" href="https://www.instagram.com/_pingo_/" class="text-md text-[#6e502b] hover:bg-[#f7c69f] font-thin px-2 py-0.5 rounded-lg">Instagram</a>
           </div>
           <div class="flex items-center gap-3 p-2">
-            <i class="fa-solid fa-envelope"></i>
-            <p class="text-sm text-[#1d1d1d]">giordano.h.silveira@gmail.com</p>
+            <div class="bg-white size-7 rounded-full flex items-center justify-center">
+              <i class="fa-solid fa-envelope text-red-500"></i>
+            </div>
+            <p class="text-md text-[#6e502b] font-thin px-2 py-0.5">giordano.h.silveira@gmail.com</p>
           </div>
         </nav>
       </header>
       <main>
         <section class="mt-8 pb-8 border-b">
-          <h2 class="text-2xl mb-4">Resumo</h2>
-          <p>Summarise your career here. You can make a PDF version of your resume using our free Sketch template here. 
-            Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-            Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, 
-            aliquet nec, vulputate eget. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          <h2 class="text-2xl mb-4 text-[#6e502b] uppercase font-semibold">Resumo Profissional</h2>
+          <p class="text-[#6e502b] text-sm">Desenvolvedor Full Stack com mais de três anos de experiência em Python, Django e FastAPI. 
+            Possuo sólida proficiência em desenvolvimento web utilizando HTML, CSS, TailwindCSS e Alpine.js, com forte capacidade de 
+            construção de interfaces responsivas e interativas. Experiência comprovada na criação de APIs RESTful, análise e manipulação 
+            de dados com Pandas, NumPy e SQL, além de conhecimento prático em deploy de aplicações com PostgreSQL e Amazon S3. 
+            Atua com foco em performance, usabilidade e organização de código, sendo também comprometido com prazos e qualidade. Formando-me em 
+            Bacharelado em Ciência da Computação, conciliando o aprendizado acadêmico com aplicação prática em projetos reais.
           </p>
         </section>
 
         <article class="flex mt-8">
-          <div class="w-9/12">
-            <h2 class="text-2xl mb-4">Experiência</h2>
-            <section>
-              <h3>Desenvolvedor WEB Júnior</h3>
-              <p>
-                Desenvolvimento Web e construção de API's REST Full com Django e Django REST Framework. 
-                Construção de páginas responsivas com HTML, CSS, Tailwind CSS, Javascript, Alpine.js, HTMX, além de outras ferramentas. 
-              </p>
-            </section>
+          <div class="w-9/12 pr-8">
+            <div class="border-b pb-8">
+              <h2 class="text-2xl font-semibold uppercase mb-4">Experiência</h2>
+              <div class="flex justify-between items-center">
+                <h3 class="font-thin">Desenvolvedor WEB Júnior</h3>
+                <h3 class="font-thin">Macrosul Ltda.</h2>
+              </div>
+              <p class="font-thin">2024 - Presente</p>
+              <section class="mt-4">
+                
+                <p class="mt-1.5 text-sm">
+                  Desenvolvimento Web e construção de API's REST Full com Django e Django REST Framework. Constrindo páginas responsivas com HTML, CSS, 
+                  Tailwind CSS, Javascript, Alpine.js, HTMX, além de outras ferramentas. Implantação de aplicações com domínio próprio, 
+                  certificado SSL e banco de dados PostgreSQL. Integração com serviços externos via API, manipulação eficiente de sessões 
+                  para otimização de desempenho e carregamento de dados. Foco em performance, organização de código e entrega de soluções escaláveis 
+                  e seguras.
+                </p>
+                <p class="mt-1.5 text-sm">
+                  Uso de estratégias para rastreamento de usuários anônimos e coleta de métricas de navegação.
+                </p>
+                <p class="mt-1.5 text-sm">
+                  Experiência também com análise de dados utilizando Python, Pandas e NumPy para extração de insights e apoio à tomada de decisões.
+                </p>
+                <h4 class="mt-4 text-lg font-semibold">Tecnologias usadas:</h4>      
+                <nav class="list-none flex flex-wrap gap-2 py-4">
+                  <li class="bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">Python</li>
+                  <li class="bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">Django</li>
+                  <li class="bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">Django REST Framework</li>
+                  <li class="bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">Django Ninja</li>
+                  <li class="bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">Tailwind CSS</li>
+                  <li class="bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">JavaScript</li>
+                  <li class="bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">Alpine.js</li>
+                </nav>
+              </section>
+            </div>
+            <div class="mt-8 border-b pb-8">
+              <div class="flex justify-between items-center">
+                <h3 class="font-thin">Estagiário em tecnologia</h3>
+                <h3 class="font-thin">Macrosul Ltda.</h2>
+              </div>
+              <p class="font-thin">2022 - 2024</p>
+              <section class="mt-4">
+                
+                <p class="mt-1.5 text-sm">
+                  Desenvolvimento Web e construção de API's REST Full com Django e Django REST Framework. Constrindo páginas responsivas com HTML, CSS, 
+                  Tailwind CSS, Javascript, Alpine.js, HTMX, além de outras ferramentas. Implantação de aplicações com domínio próprio, 
+                  certificado SSL e banco de dados PostgreSQL. Integração com serviços externos via API, manipulação eficiente de sessões 
+                  para otimização de desempenho e carregamento de dados. Foco em performance, organização de código e entrega de soluções escaláveis 
+                  e seguras.
+                </p>
+                <p class="mt-1.5 text-sm">
+                  Experiência também com análise de dados utilizando Python, Pandas e NumPy para extração de insights e apoio à tomada de decisões.
+                </p>
+                <h4 class="mt-4 text-lg font-semibold">Tecnologias usadas:</h4>      
+                <nav class="list-none flex flex-wrap gap-2 py-4">
+                  <li class="bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">Python</li>
+                  <li class="bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">Django</li>
+                  <li class="bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">Django REST Framework</li>
+                  <li class="bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">Django Ninja</li>
+                  <li class="bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">Tailwind CSS</li>
+                  <li class="bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">JavaScript</li>
+                  <li class="bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">Alpine.js</li>
+                </nav>
+              </section>
+            </div>
           </div>
           <aside class="w-3/12">
             <section class="pb-8 border-b">
-              <h2 class="text-2xl mb-4">Habilidades</h2>
-              <h3 class="text-xl mb-2">Frontend</h3>
+              <h2 class="text-2xl mb-4 font-semibold uppercase">Habilidades</h2>
+              <h3 class="text-xl mb-2 font-thin">Frontend</h3>
               <nav class="space-y-1.5 mb-4">
                 <div>
                   <h4 class="text-sm">Html/Css</h4>
@@ -113,7 +175,7 @@
                   </div>
                 </div>
               </nav>
-              <h3 class="text-xl mb-2">Backend</h3>
+              <h3 class="text-xl mb-2 font-thin">Backend</h3>
               <nav class="space-y-1.5 mb-4">
                 <div>
                   <h4 class="text-sm">Python/Django</h4>
@@ -140,7 +202,7 @@
                   </div>
                 </div>
               </nav>
-              <h3 class="text-xl mb-2">Outras</h3>
+              <h3 class="text-xl mb-2 font-thin">Outras</h3>
               <nav class="flex flex-wrap gap-2">
                 <p class="text-sm bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">SQL</p>
                 <p class="text-sm bg-[#f7c69f] py-0.5 px-1.5 rounded-lg">pandas/numpy</p>
@@ -154,20 +216,20 @@
               </nav>
             </section>
             <section class="mt-8 pb-8 border-b">
-              <h2 class="text-2xl mb-4">Educação</h2>
+              <h2 class="text-2xl mb-4 font-semibold uppercase">Educação</h2>
               <div class="mb-4">
-                <h3 class="text-xl">Ensino Médio</h3>
-                <p class="">Colégio Graciosa</p>
-                <p class="text-sm">2015 - 2017</p>
+                <h3 class="text-xl font-semibold">Ensino Médio</h3>
+                <p class="font-thin">Colégio Graciosa</p>
+                <p class="text-sm font-thin">2015 - 2017</p>
               </div>
               <div class="mb-4">
-                <h3 class="text-xl">Bacharelado em Ciência da Computação</h3>
-                <p class="">Universidade Federal do Paraná</p>
-                <p class="text-sm">2019 - 2025</p>
+                <h3 class="text-xl font-semibold">Bacharelado em Ciência da Computação</h3>
+                <p class="font-thin">Universidade Federal do Paraná</p>
+                <p class="text-sm font-thin">2019 - 2025</p>
               </div>
             </section>
             <section class="mt-8 pb-8 border-b">
-              <h2 class="text-2xl mb-4">Linguagens</h2>
+              <h2 class="text-2xl mb-4 uppercase font-semibold">Linguagens</h2>
               <nav class="space-y-1.5 mb-4">
                 <div>
                   <h4 class="text-sm">Português</h4>
